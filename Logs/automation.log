@@ -779,3 +779,44 @@ Stacktrace:
 07/31/2025 07:48:59 AM - INFO - Captured Email: steve_gates@nopCommerce.com
 07/31/2025 07:48:59 AM - INFO - Customer Found: steve_gates@nopCommerce.com
 07/31/2025 07:48:59 AM - INFO - ********** Search Customer by Name Test Passed **********
+07/31/2025 09:57:38 AM - INFO - ********** Test_TC03_AddNewCustomer **********
+07/31/2025 09:57:38 AM - INFO - ********** Test_TC03_AddNewCustomer **********
+07/31/2025 09:57:38 AM - INFO - ********** Adding New Customer **********
+07/31/2025 09:57:38 AM - INFO - ********** Logging in to the application **********
+07/31/2025 09:57:49 AM - INFO - ********** Login Successful **********
+07/31/2025 09:57:49 AM - INFO - ********** Navigating to Add New Customer page **********
+07/31/2025 09:57:53 AM - INFO - ********** Filling in customer details **********
+07/31/2025 09:57:53 AM - INFO - Generated email: burpp2rz@gmail.com
+07/31/2025 09:57:57 AM - INFO - ********** Verify if the customer is added successfully **********
+07/31/2025 09:57:57 AM - INFO - ********** Customer added successfully **********
+07/31/2025 09:57:59 AM - INFO - ********** Test_TC01_Login **********
+07/31/2025 09:57:59 AM - INFO - ********** Verifying Home Page Title **********
+07/31/2025 09:58:01 AM - INFO - ********** Home Page Title Verified Successfully **********
+07/31/2025 09:58:03 AM - INFO - ********** Verifying Login Functionality **********
+07/31/2025 09:58:15 AM - INFO - ********** Login Successful **********
+07/31/2025 09:58:20 AM - INFO - ********** Test_TC02_Login_DDT **********
+07/31/2025 09:58:20 AM - INFO - ********** Verifying Login DDT **********
+07/31/2025 09:58:21 AM - INFO - Total number of rows in the Excel file: 5
+07/31/2025 09:58:21 AM - INFO - Total number of columns in the Excel file: 3
+07/31/2025 09:58:29 AM - INFO - ********** Login Failed as expected for username: abc@gmail.com and 3424gfh **********
+07/31/2025 09:58:36 AM - INFO - ********** Login Failed as expected for username: admin@yourstore.com and adm23 **********
+07/31/2025 09:58:43 AM - INFO - ********** Login Failed as expected for username: adm@gmail.com and admin **********
+07/31/2025 09:59:10 AM - INFO - ********** Login Successful **********
+07/31/2025 09:59:13 AM - INFO - ********** Test_TC04_SearchCustomerByEmail **********
+07/31/2025 09:59:13 AM - INFO - ********** Searching Customer by Email **********
+07/31/2025 09:59:13 AM - INFO - ********** Logging in to the application **********
+07/31/2025 09:59:22 AM - INFO - ********** Login Successful **********
+07/31/2025 09:59:22 AM - INFO - ********** Navigating to Search Customer page **********
+07/31/2025 09:59:27 AM - INFO - ********** Searching for customer by email **********
+07/31/2025 09:59:31 AM - INFO - Captured Name: Steve Gates
+07/31/2025 09:59:31 AM - INFO - Customer Found: Steve Gates
+07/31/2025 09:59:31 AM - INFO - ********** Search Customer by Email Test Passed **********
+07/31/2025 09:59:34 AM - INFO - ********** Test_TC05_SearchCustomerByName **********
+07/31/2025 09:59:34 AM - INFO - ********** Searching Customer by Name **********
+07/31/2025 09:59:34 AM - INFO - ********** Logging in to the application **********
+07/31/2025 09:59:46 AM - INFO - ********** Login Successful **********
+07/31/2025 09:59:46 AM - INFO - ********** Navigating to Search Customer page **********
+07/31/2025 09:59:52 AM - INFO - ********** Searching for customer by name **********
+07/31/2025 09:59:56 AM - INFO - Captured Email: steve_gates@nopCommerce.com
+07/31/2025 09:59:56 AM - INFO - Customer Found: steve_gates@nopCommerce.com
+07/31/2025 09:59:56 AM - INFO - ********** Search Customer by Name Test Passed **********
