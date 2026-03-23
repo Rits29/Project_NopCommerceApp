@@ -6,13 +6,6 @@ import configparser
 config = configparser.RawConfigParser()
 config.read('./Configurations/Config.ini')
 
-# This class is used to read the configuration properties from the Config.ini file.
-# It contains static methods to get the base URL, username, and password for each data given in the Config.ini file,
-#   we need to create separate methods (static) for each property we want to read.
-# Static methods are used here because we do not need to create an instance of this class to access its methods.
-# This allows us to call these methods directly using the class name without needing to instantiate it, 
-#    i.e., adding an object of the class hence no need to use self parameter.
-
 class ReadConfig():
 
     @staticmethod
