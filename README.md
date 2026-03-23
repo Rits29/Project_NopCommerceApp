@@ -1,4 +1,4 @@
-# Project_NopCommerceApp
+# AdminPortal_AutoFramework
 Selenium_Pytest_POC_Project
 # 🚀 Enterprise-Grade Python Selenium Automation Framework
 
