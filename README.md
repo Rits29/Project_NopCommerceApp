@@ -1,5 +1,5 @@
 # AdminPortal_AutoFramework
-Selenium_Pytest_POC_Project
+Enterprise admin portal test automation — Python, Selenium, POM, Pytest
 # 🚀 Enterprise-Grade Python Selenium Automation Framework
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
@@ -46,17 +46,23 @@ Test Layer  →  Page Layer  →  Utility Layer  →  WebDriver Layer
 ---
 
 📂 Project Structure
-```id="elite3"
+```bash
 project/
 │
-├── configurations/     # Configuration files
-├── logs/               # Execution logs
-├── pageObjects/        # Page Object classes
-├── reports/            # Test execution reports
-├── screenshots/        # At failure evidences are captured here
-├── testcases/          # Test cases
-├── testdata/           # Test data (JSON/Excel)
-├── utilities/          # Reusable utilities (waits, logger, config)
+├── configurations/            # Configuration files
+├── logs/                      # Execution logs
+├── pageObjects/               # Page Object classes
+├── reports/                   # Test execution reports
+├── screenshots/               # At failure evidences are captured here
+├── testcases/                 # Test cases
+    ├── conftest.py            # Pytest fixtures
+    ├── test_Login.py          # Login Test
+    ├── test_Login_DDT.py      # Login Test Data Driven tesing
+    ├── AddNewCustomer.py      # Add new customer flow test
+    ├── serachCustomerByEmail.py # Search customer using Email test
+    ├── serachCustomerByName.py # Search customer using Name test
+├── testdata/                  # Test data (JSON/Excel)
+├── utilities/                 # Reusable utilities (waits, logger, config)
 ---
 ```
 ## ⚙️ Core Components Explained
