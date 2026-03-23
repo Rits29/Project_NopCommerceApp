@@ -33,12 +33,6 @@ def browser(request):    # This fixture retrieves the browser type from command 
 # ***Generate Pytest HTML Report*** to do so we add hooks to conftest.py file.
 # It is hook for adding environment information to the HTML report.
 
-#Old menethod now updated in new version hence use the below in its place
-# def pytest_configure(config):
-#   config._metadata['Project Name'] = 'NopCommerce Application'
-#   config._metadata['Module Name'] = 'Login Module'
-#  config._metadata['Tester'] = 'Rits'
-
 def pytest_html_metadata(metadata):
     metadata['Project Name'] = 'NopCommerce Application'
     metadata['Module Name'] = 'Login Module'
