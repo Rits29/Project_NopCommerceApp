@@ -12,9 +12,9 @@ Enterprise admin portal test automation — Python, Selenium, POM, Pytest
 
 ## 📌 Overview
 
-This repository contains a **robust, scalable, and enterprise-grade automation framework** built using **Python, Selenium WebDriver, and Pytest**.
+This repository contains a **robust, scalable automation framework designed with real-world practices** built using **Python, Selenium WebDriver, and Pytest**.
 
-Unlike basic automation setups, this framework is designed with a **system-level mindset**, focusing on:
+Unlike basic automation setups, this framework is designed with **maintainability and scalability in mind**, focusing on:
 
 * Long-term maintainability
 * High reusability
@@ -31,7 +31,7 @@ Unlike basic automation setups, this framework is designed with a **system-level
 * 🔹 Integrated logging & reporting
 * 🔹 Failure handling with screenshots
 * 🔹 CI/CD pipeline ready
-* 🔹 Designed for **enterprise-scale applications**
+* 🔹 Designed to **support real-world application scenarios**
 
 ---
 
